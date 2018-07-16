@@ -23,6 +23,6 @@ function iLoveTheBeatles(number){
   do{
     myArray.unshift(love)
     number++
-  } while (number < 15);
+  } while (number <= 15);
   return myArray
 }
