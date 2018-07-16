@@ -2,7 +2,8 @@
 function theBeatlesPlay(musiciansArray,instrumentsArray){
   var array = musiciansArray
   for(let i = 0; i < musiciansArray.length; i++){
-      array[i] = '${musiciansArray[i]} plays ${instrumentsArray[i]}'
+      var myString = musiciansArray[i] + " plays "+ instrumentsArray[i]
+      array[i] = myString
   }
   return array
 }
