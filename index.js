@@ -19,7 +19,7 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(number){
   var myArray
-  
+
   do{
     myArray.unshift("I love the Beatles!")
     number++
