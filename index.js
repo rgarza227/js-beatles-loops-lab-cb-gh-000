@@ -12,5 +12,6 @@ function johnLennonFacts(facts){
   index = facts.length - 1
   while (index >= 0){
     facts[index] = facts[index] + "!!!"
+    index--
   }
 }
