@@ -9,8 +9,8 @@ function theBeatlesPlay(musiciansArray,instrumentsArray){
 }
 
 function johnLennonFacts(facts){
-
-  while (var i < facts.length){
+  var i =0
+  while (i < facts.length){
     var myString = facts[i] + "!!!"
     facts[i] = myString
     i++
