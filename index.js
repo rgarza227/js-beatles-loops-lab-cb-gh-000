@@ -15,4 +15,5 @@ function johnLennonFacts(facts){
     facts[index] = myString
     index--
   }
+  return facts
 }
